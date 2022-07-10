@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="8dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="M Ilyas Arman S                                                         (A11.2019.11845)"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:textSize="12dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_height="55dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:textColor="@color/design_default_color_primary"
+        android:text="Kalkulator"
+        android:layout_height="wrap_content"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="Inputkan Angka Pertama     : "
+            android:textSize="14dp"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:id="@+id/angkaPertama"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:paddingBottom="5dp"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="Inputkan Angka Kedua          : "
+            android:textSize="14dp"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:id="@+id/angkaKedua"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:paddingBottom="5dp"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="_______________________________________________________"
+            android:textSize="14dp"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="Hasil Penjumlahan                 : "
+            android:textSize="14dp"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/hasilPenjumlahan"
+            android:textSize="16dp"
+            android:textColor="@color/black"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="Hasil Pengurangan                : "
+            android:textSize="14dp"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/hasilPengurangan"
+            android:textSize="16dp"
+            android:textColor="@color/black"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="Hasil Pembagian                    : "
+            android:textSize="14dp"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/hasilPembagian"
+            android:textSize="16dp"
+            android:textColor="@color/black"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="Hasil Perkalian                       : "
+            android:textSize="14dp"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/hasilPerkalian"
+            android:textSize="16dp"
+            android:textColor="@color/black"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/tmblTambah"
+        android:onClick="Hitung"
+        android:layout_width="wrap_content"
+        android:text="Hitung"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"/>
+</LinearLayout>
